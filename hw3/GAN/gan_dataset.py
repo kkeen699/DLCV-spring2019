@@ -1,7 +1,6 @@
 import torch
 import torch.utils.data as data
 import torchvision.transforms as transforms
-import numpy as np
 import glob
 import cv2
 import os
