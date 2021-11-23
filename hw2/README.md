@@ -2,7 +2,7 @@
 
 
 
-# HW2 ― Object Detection
+# HW2 ― Object Detection (YOLO)
 The task is to implement YOLO to detect and classify the objects present in the images by determining their bounding boxes.
 
 For more details, please refer to the [pdf](https://github.com/kkeen699/DLCV-spring2019/blob/master/hw2/DLCV_hw2.pdf) to view the slides of HW2.
