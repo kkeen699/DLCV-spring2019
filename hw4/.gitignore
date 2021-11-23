@@ -1,0 +1,23 @@
+# Ignore the dataset folder
+# IMPORTANT: make sure that your dataset is stored in a
+# folder with the same name as the one specified below!
+
+/hw4_data/*
+/__pycache__
+/.vscode
+/p1/__pycache__
+/p1/model
+/p1/features
+/p1/p1_curve.png
+/p2/__pycache__
+/p2/features
+/p2/model
+/p2/p2_curve.png
+/p3/__pycache__
+/p3/features
+/p3/model
+/p3/p3_curve.png
+/hw4_r07522823.md
+/picture/
+/p3/pre
+/pre

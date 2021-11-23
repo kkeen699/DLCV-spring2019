@@ -1,0 +1,35 @@
+# Ignore the dataset folder
+# IMPORTANT: make sure that your dataset is stored in a
+# folder with the same name as the one specified below!
+
+/hw3_data/*
+.vscode
+/GAN/G
+/GAN/D
+/GAN/GAN_output
+/GAN/__pycache__
+/ACGAN/__pycache__
+/ACGAN/G
+/ACGAN/D
+/ACGAN/ACGAN_output
+/DANN/__pycache__
+/DANN/u_m
+/DANN/u
+/DANN/m
+/DANN/s
+/DANN/m_s
+/DANN/s_u
+/ADDA/__pycache__
+/prediction
+/ADDA/m
+/ADDA/u
+/ADDA/s
+/DSN/__pycache__
+/DSN/u_m
+/DSN/m_s
+/DSN/s_u
+/hw3_r07522823.md
+/picture
+/ADDA/u_m
+/ADDA/m_s
+/ADDA/s_u
