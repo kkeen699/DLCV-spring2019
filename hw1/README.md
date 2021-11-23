@@ -29,7 +29,7 @@ For details of the assignment, please refer to the [pdf](https://github.com/kkee
     n = 45   | 0.929 | 0.858 | 0.792
     n = 140  | 0.929 | 0.858 | 0.754    
 
-    Choose k = 1, n = 45, and the recognition rate of the testing set is 0.95625.
+    Choose k = 1, n = 45, and the recognition rate of the testing set is **0.95625**.
 
 ## Problem 3 Visual Bag-of-Words
 
@@ -42,4 +42,5 @@ For details of the assignment, please refer to the [pdf](https://github.com/kkee
 <p align="center"> 
 <img src="./image/p3-2.png" alt="drawing" width=""/>
 </p>
-   Adopt the k-NN to perform classification using the above BoW features (k=5), and the c;assification accuracy is 0.558.
+
+   Adopt the k-NN to perform classification using the above BoW features (k=5), and the c;assification accuracy is **0.558**.
