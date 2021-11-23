@@ -3,7 +3,7 @@
 
 
 # HW2 ― Object Detection
-The task is to omplement YOLO to detect and classify the objects present in the images by determining their bounding boxes.
+The task is to implement YOLO to detect and classify the objects present in the images by determining their bounding boxes.
 
 For more details, please refer to the [pdf](https://github.com/kkeen699/DLCV-spring2019/blob/master/hw2/DLCV_hw2.pdf) to view the slides of HW2.
 
@@ -25,7 +25,7 @@ Run `predict.py` will output predition files.
 
 `hw2.sh` is the shell script file for running the `YoloV1-vgg16bn` model (download trained model and output predition files).
 
-`hw2_best.sh` is the shell script file for running the `Volov1-resent50` model (download trained model and output predition files).
+`hw2_best.sh` is the shell script file for running the `YoloV1-resent50` model (download trained model and output predition files).
 
     bash ./hw2.sh $1 $2
     bash ./hw2_best.sh $1 $2
