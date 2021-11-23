@@ -1,6 +1,5 @@
 import sys
 import torch
-import torch.nn as nn
 from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
 from torch.autograd import Variable
@@ -10,7 +9,7 @@ from dataset import yoloDataset
 
 import numpy as np
 from resnet_yolo import resnet50
-import models
+from vgg_yolo import Yolov1_vgg16bn
 
 def save_checkpoint(checkpoint_path, model, optimizer):
     
@@ -29,7 +28,7 @@ num_epochs = 100
 batch_size = 8
 
 if m == 'vgg16':
-    net = models.Yolov1_vgg16bn(pretrained=True)
+    net = Yolov1_vgg16bn(pretrained=True)
 elif m == 'resnet':
     net = resnet50(pretrained=True)
 else:

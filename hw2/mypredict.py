@@ -1,13 +1,8 @@
 import torch
 import torch.nn as nn
-import torch.optim as optim
-from torch.autograd import Variable
-import torch.nn.functional as F
 import torchvision.transforms as transforms
-from torch.utils.data import Dataset, DataLoader
-import cv2
-import numpy as np
-import models
+from torch.utils.data import DataLoader
+from vgg_yolo import Yolov1_vgg16bn
 import vali
 from dataset import yoloDataset
 
@@ -107,7 +102,7 @@ if __name__ == '__main__':
     device = torch.device('cuda' if use_cuda else "cpu")
     print('Device used:', device)
 
-    model = models.Yolov1_vgg16bn(pretrained=True).to(device)
+    model = Yolov1_vgg16bn(pretrained=True).to(device)
 
     file_root = '/home/data/dlcv_datasets/hw2_train_val/val1500/'
     testset = yoloDataset(root = file_root, num = 1500, train =False, transform = transforms.ToTensor())

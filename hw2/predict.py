@@ -1,11 +1,9 @@
 import torch
 import torchvision.transforms as transforms
-import torch.nn as nn
 
-import models
+from vgg_yolo import Yolov1_vgg16bn
 from resnet_yolo import resnet50
 
-import numpy as np
 import glob
 import sys
 import cv2
@@ -119,7 +117,7 @@ if __name__ == '__main__':
     print('Device used:', device)
 
     if modelname == 'vgg16':
-        model = models.Yolov1_vgg16bn(pretrained=True).to(device)
+        model = Yolov1_vgg16bn(pretrained=True).to(device)
         checkpoint_path = './vgg16_yolo_ep50.pth'
     elif modelname == 'resnet':
         model = resnet50().to(device)
