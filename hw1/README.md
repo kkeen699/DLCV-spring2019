@@ -1,4 +1,4 @@
-# DLCV HW1
+# HW1 ― Principal Component Analysis, k-Nearest Neighbors Classification, and Bag of Visual Words
 
 For details of the assignment, please refer to the [pdf](https://github.com/kkeen699/DLCV-spring2019/blob/master/hw1/DLCV_hw1.pdf) provided by TAs.
 
