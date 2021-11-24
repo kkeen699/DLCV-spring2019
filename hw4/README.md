@@ -3,7 +3,7 @@
 
 
 
-# HW4 ― Recurrent Neural Networks (RNN) for Action Recognition
+# HW4 - Recurrent Neural Networks (RNN) for Action Recognition
 In this assignment, you will learn to perform both trimmed action recognition and temporal action segmentation in full-length videos.
 
 For more details, please refer to the [pdf](https://github.com/kkeen699/DLCV-spring2019/blob/master/hw4/DLCV_hw4.pdf) to view the slides of HW4.
