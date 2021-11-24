@@ -3,7 +3,7 @@
 
 
 
-# HW3 ― HW3 ― Image Generation and Feature Disentanglement (GAN, ACGAN), and Unsupervised Domain Adaptation (UDA)
+# HW3 - Image Generation and Feature Disentanglement (GAN, ACGAN), and Unsupervised Domain Adaptation (UDA)
 In this assignment, you are given datasets of human face and digit images. You will need to implement the models of both GAN and ACGAN for generating human face images, and the model of DANN for classifying digit images from different domains.
 
 For more details, please refer to the [pdf](https://github.com/kkeen699/DLCV-spring2019/blob/master/hw3/DLCV_hw3.pdf) to view the slides of HW3.
