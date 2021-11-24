@@ -1,13 +1,9 @@
 import torch
-import torch.nn as nn
-import torchvision
 import torchvision.transforms as transforms
 import sys
-import glob
 import os
 from os import listdir
 import cv2
-import numpy as np
 from p3_model import LSTM
 from p3_model import ResNet_feature_extractor
 

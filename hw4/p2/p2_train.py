@@ -1,10 +1,7 @@
 import torch
 import torch.nn as nn
-import torch.optim as optim
-from torch.utils.data import DataLoader
 import numpy as np
 import pickle
-from p2_dataset import CNN_feature
 from p2_model import LSTM
 import matplotlib.pyplot as plt
 

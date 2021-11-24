@@ -1,15 +1,7 @@
-import torch
-import torchvision
-import torchvision.transforms as transforms
 import torch.utils.data as data
-from torch.utils.data import DataLoader
-import os
-from os import listdir
 import pickle
 import pandas as pd
-import numpy as np
 from reader import readShortVideo
-from p1_model import ResNet_feature_extractor
 
 class VideoDataset(data.Dataset):
     def __init__(self, t_v): 

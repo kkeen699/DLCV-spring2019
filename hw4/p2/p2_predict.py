@@ -1,11 +1,8 @@
 import torch
 import torch.nn as nn
-import torchvision
-import torchvision.transforms as transforms
 import sys
 import pandas as pd
 import os
-import numpy as np
 from reader import readShortVideo
 from p2_model import LSTM
 from p2_model import ResNet_feature_extractor

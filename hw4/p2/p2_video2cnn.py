@@ -1,7 +1,6 @@
 import torch
 from torch.utils.data import DataLoader
 import pickle
-import numpy as np
 from p2_model import ResNet_feature_extractor
 from p2_dataset import VideoDataset
 
